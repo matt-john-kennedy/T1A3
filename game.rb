@@ -4,12 +4,20 @@ class Menu
     # attr_writer
 
     def display_menu
-        puts menu_options_array
+        menu_options_array.each_with_index do | menu_item, index |
+            print "#{index + 1}. #{menu_item}, \n"
+        end
     end
 
     def initialize(menu_details)
         @menu_options_array = menu_details
-        
+    end
+    def request_user_input
+        puts "Please input your option"
+        display_menu
+        user_input = gets.chomp.to_i 
+        user_input -=1
+        return user_input
     end
 end
 
@@ -21,7 +29,8 @@ class Main_menu < Menu
 end
 
 menu = Main_menu.new 
-menu.display_menu
+# menu.display_menu
+puts menu.request_user_input
 
 # end
 
