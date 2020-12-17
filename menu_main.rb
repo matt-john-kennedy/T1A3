@@ -3,7 +3,10 @@
 class Main_menu < Menu
     def initialize ()
         # Super calls parent initialize function
-        super (["Update Player 1 Name", "update Player 2 Name", "Play Game 1", "Play Game 2", "See Scoreboard", "Exit"])
+        # super (["Update Player 1 Name", "update Player 2 Name", 
+        # "Play Game 1", "Play Game 2", "See Scoreboard", "Exit"])
+        return $prompt.select("Select your option",
+        ["Update Player 1 Name", "update Player 2 Name", "Play Game 1", "Play Game 2", "See Scoreboard", "Exit"])
     end
 end
 

@@ -1,5 +1,5 @@
-# require "tty-prompt"
-# $prompt = TTY::Prompt.new
+require "tty-prompt"
+$prompt = TTY::Prompt.new
 
 
 class Menu 
