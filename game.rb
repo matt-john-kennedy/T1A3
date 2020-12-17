@@ -30,7 +30,7 @@ end
 
 menu = Main_menu.new 
 # menu.display_menu
-puts menu.request_user_input
+menu.request_user_input
 
 # end
 

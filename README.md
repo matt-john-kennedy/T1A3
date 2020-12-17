@@ -1,23 +1,36 @@
-R1 Answers to all documentation requirements
+# R1 Answers to all documentation requirements
 
 
-R2 Spearate heading for each documentation requirement - Answers organised under appropriate headings
+# R2 Spearate heading for each documentation requirement - Answers organised under appropriate headings
 
 
+# R3 Full attribution to referenced sources
 
 
-R3 Full attribution to referenced sources
+# R4 Link to source control repository (github)
 
-R4 Link to source control repository (github)
 
-R5 Statement of purpose and scope for application
-Include:    Describe at high level what the app will do
+# R5 Statement of purpose and scope for application
 
-            identify the problem it will solve and explain why I am developing it
-            
-            Identify Target Audience
+Include the following:  
 
-            Explain how a member of target Audience will use it
+## Describe at high level what the app will do
+
+The app will be a guessing game that allows users to choose to play either of 2 available games. The game will give them a score and keep track of it which the users can bring up later via the scoreboard.
+
+## identify the problem it will solve and explain why I am developing it
+
+People get bored, this game will allow users to intertain themselves while using critical thinking skills to outwit their opponent.
+    
+## Identify Target Audience
+
+The target audience is people who are bored but want to use their brain during downtime
+
+## Explain how a member of target Audience will use it
+
+The target audience will load the game by entering it into a terminal application which will accept their name if entered when loading, and give them the option to update their name through the menu. 
+
+
 
 
 
@@ -28,7 +41,7 @@ Note: Ensure that your features above allow you to demonstrate your understandin
 - loops and conditional control structures
 - error handling
 
-    Feature 1
+    Feature 1 Menus
 
     description feature:
 
@@ -36,7 +49,7 @@ Note: Ensure that your features above allow you to demonstrate your understandin
 
     description of each feature:
 
-    Featuer 3
+    Feature 3
     
     description of each feature:
 
