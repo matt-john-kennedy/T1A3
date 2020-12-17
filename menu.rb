@@ -1,3 +1,7 @@
+require "tty-prompt"
+$prompt = TTY::Prompt.new
+
+
 class Menu 
     attr_accessor :menu_options_array
     # attr_reader
