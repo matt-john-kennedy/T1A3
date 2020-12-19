@@ -7,27 +7,17 @@ class User_menu < Menu
         super ["User 1", "User 2", "Exit"]
     end
     def update_players
-        # Need a place to store user details but not here but can be here
+        puts "please enter your name" #Come back to this
+        name1 = gets.chomp()
+        # return name1
     end
 
-    def loop
-        response = ""
-        while response != "Exit"
-            response = request_user_input
-            system "clear"
-            puts response
-            case response
-                when "User 1"
-                    update_players
-                when "User 2"
-                    update_players
-            end
-            if response != "Exit" 
-                print "Press Enter Key to continue..."
-                gets  
-            end 
-            system "clear"
+    def option_selected(option)
+        case option
+            when "User 1"
+                update_players
+            when "User 2"
+                update_players
         end
-        
     end
 end

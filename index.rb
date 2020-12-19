@@ -28,4 +28,6 @@ require_relative("./leaderboard.rb")
 
 # menu.display_menu
 # menu.request_user_input
-Main_menu.new.loop
+# Main_menu.new.loop
+menu = Main_menu.new
+menu.loop
