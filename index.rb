@@ -23,31 +23,9 @@ require_relative("./leaderboard.rb")
 
 # prompt 
 
-menu = Main_menu.new 
+
+
+
 # menu.display_menu
 # menu.request_user_input
-response = ""
-while response != "Exit"
-    response = menu.request_user_input
-    system "clear"
-    case response
-    when "Update Player 1 Name"
-        ladder
-    when "update Player 2 Name"
-        team = select_team
-        show_team_info(team)
-    when "Play Game 1"
-        mode = game_mode
-        play_game(mode)
-    when "Play Game 2"
-        training
-    when "See Scoreboard"
-        training
-    else
-        puts "See you next time"
-        next
-    end 
-    print "Press Enter Key to continue..."
-    gets 
-    system "clear"
-end
+Main_menu.new.loop
