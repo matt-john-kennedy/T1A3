@@ -38,3 +38,14 @@ class Menu
 end
 end
 
+# a = ['ouan', 'tou', 'sree']
+# -----------------
+# m = Menu.new(a)
+# m.loop
+# --------------
+# class Temporary < Menu
+#     def initialize
+#         super a
+
+# t = Temporary.new
+# t.loop
