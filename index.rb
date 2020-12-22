@@ -55,5 +55,36 @@ puts ""
 menu = Main_menu.new
 menu.loop
 
+# create variable, make variable user data.
 
+def game1
+puts "Game 1 is "
 
+push_users_into_array
+
+def initiate_game_1
+        create_max_num
+                create_max_guesses
+                create_max_
+        play_game_1
+        input_game_data_into_user1
+        play_game_1
+        input_game_data_into_user2
+end
+
+def initiate_game_2
+        # while correct number not guessed
+                # for each array, guess number, 
+                        # if correct number, score =+1
+                # or 
+                # user 1 guess
+                        # if not correct =+ 1 attempts / =-1 attempts remaining
+                        # else score =+ 1
+                # user 2 guess
+                        # if not correct =+ 1 attempts / =-1 attempts remaining
+                        # else score =+ 1
+        play_game_2
+        input_game_data_into_user1
+        play_game_2
+        input_game_data_into_user2
+end
