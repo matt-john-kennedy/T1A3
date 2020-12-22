@@ -28,9 +28,9 @@ class Main_menu < Menu
                 userm.loop
                 
             when "Play Game 1"
-                game1
+                initiate_game_1
             when "Play Game 2"
-                game2
+                initiate_game_2
             when "See Scoreboard"
                 scoreboard
                 # puts user1

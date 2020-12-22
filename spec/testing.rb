@@ -1,4 +1,4 @@
-require_relative('../game.rb')
+require_relative('../index.rb')
 
 describe Menu do
     menu_details = {menu_item: "choose User Name", }
